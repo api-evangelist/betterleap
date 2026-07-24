@@ -1,7 +1,18 @@
 aid: betterleap
 name: Betterleap
-description: Betterleap is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Betterleap is an AI-powered healthcare recruiting platform that automates
+  candidate sourcing, credential verification, and multi-step outreach for
+  talent acquisition teams. Its agentic search lets recruiters describe an ideal
+  candidate conversationally and surfaces qualified matches from a database of
+  35M+ verified healthcare professionals, with licensing verified through 25+
+  state board partnerships. The platform autonomously drafts and sends
+  personalized email sequences with follow-ups, integrates with ATS platforms
+  such as Workday, Oracle, and UKG for talent rediscovery and data refresh, and
+  reports recruiting performance and ROI through an insights dashboard.
+  Betterleap is a venture-backed company (a16z portfolio) added to the API
+  Evangelist network; it operates as a SaaS web application and does not
+  currently publish a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/betterleap/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,53 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.betterleap.com/favicon.ico
 tags:
 - Company
+- Recruiting
+- Talent Acquisition
+- Healthcare
+- Artificial Intelligence
+- Sourcing
+- HR Tech
+- SaaS
 apis: []
+common:
+- type: DomainSecurity
+  url: security/betterleap-domain-security.yml
+- type: Website
+  url: https://www.betterleap.com
+- type: SignUp
+  url: https://ai.betterleap.com
+- type: Login
+  url: https://ai.betterleap.com
+- type: Blog
+  url: https://betterleap.com/blog
+- type: TermsOfService
+  url: https://betterleap.com/terms
+- type: PrivacyPolicy
+  url: https://betterleap.com/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
